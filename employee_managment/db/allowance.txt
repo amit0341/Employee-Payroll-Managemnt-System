@@ -1,0 +1,1 @@
+CREATE TABLE allowance (`SNo` INT NOT NULL AUTO_INCREMENT, overtime INT NOT NULL, medical INT NOT NULL, bonus INT NOT NULL, other INT NOT NULL, `Emp_ID` INT NOT NULL, salary INT NOT NULL, rateperhour INT, total_allowance INT NOT NULL, firstname VARCHAR(255) NOT NULL, lastname VARCHAR(255) NOT NULL, dateofbirth DATE, department VARCHAR(255), PRIMARY KEY (`SNo`));
